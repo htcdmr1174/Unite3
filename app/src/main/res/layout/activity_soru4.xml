@@ -10,10 +10,9 @@
         android:id="@+id/textview"
         android:layout_width="169dp"
         android:layout_height="104dp"
-        android:hint="indexd:0"
-        android:text=""
+        android:text="index:0"
+        android:textColor="#FF0000"
         android:textSize="30dp"
-        android:textcolor="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.194"
@@ -26,10 +25,9 @@
         android:id="@+id/textview2"
         android:layout_width="169dp"
         android:layout_height="104dp"
-        android:hint="Toplam:0"
-        android:text=""
+        android:text="Toplam:0"
         android:textSize="30dp"
-        android:textcolor="#FF0000"
+        android:textColor="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.892"
@@ -41,8 +39,8 @@
     <EditText
         android:layout_width="221dp"
         android:layout_height="64dp"
-        android:hint=""
-        android:text=""
+        android:hint="Sonuç"
+        android:textColorHint="#78909C"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,17 +52,18 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="184dp"
+        android:layout_width="136dp"
         android:layout_height="71dp"
         android:layout_margin="69dp"
         android:text="ekle"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571"
+        app:layout_constraintVertical_bias="0.606"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -74,8 +73,8 @@
         android:text="sifırla"
         android:textSize="30dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="367dp" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="386dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

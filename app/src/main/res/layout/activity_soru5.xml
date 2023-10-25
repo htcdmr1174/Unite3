@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soru5">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="194dp"
+        android:layout_height="52dp"
+        android:text="Ürün adı:"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="194dp"
+        android:layout_height="52dp"
+        android:text="Fiyat:"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="194dp"
+        android:layout_height="52dp"
+        android:text="Adet:"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <EditText
+        android:id="@+id/edittesxt"
+        android:layout_width="236dp"
+        android:layout_height="68dp"
+        android:hint="Ürün giriniz"
+        android:textColorHint="#78909C"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <EditText
+        android:id="@+id/edittesxt2"
+        android:layout_width="236dp"
+        android:layout_height="68dp"
+        android:hint="fiyat giriniz"
+        android:textColorHint="#78909C"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <EditText
+        android:id="@+id/edittesxt3"
+        android:layout_width="236dp"
+        android:layout_height="68dp"
+        android:hint="adet giriniz"
+        android:textColorHint="#78909C"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="83dp"
+        android:layout_margin="69dp"
+        android:text="KAYDET"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
