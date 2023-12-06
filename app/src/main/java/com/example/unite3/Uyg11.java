@@ -22,7 +22,7 @@ public class Uyg11 extends AppCompatActivity {
     public void islemYap(View view) {
 
         Log.i(TAG,"Düğmeye tıklandı");
-        EditText editText = (EditText) findViewById(R.id.editText);
+        EditText editText = (EditText) findViewById(R.id.editTextTextPersonName);
         Log.i(TAG,"Edit Text tanımlandı");
         String s1 = editText.getText().toString();
         Log.i(TAG,"Edit Text içindeki yazı alındı");
