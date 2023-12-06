@@ -14,7 +14,6 @@
         android:text="Bilişim Teknolojileri Alanı"
         android:textColor="#FF0000"
         android:textSize="35sp"
-        android:textcolor="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"

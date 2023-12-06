@@ -1,0 +1,34 @@
+package com.example.unite3;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+
+public class Uyg11 extends AppCompatActivity {
+
+    private final String TAG = "etiket";
+    private int sayi = 0;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_uyg11);
+        Log.d(TAG,"debug (hata ayıklama)");
+        }
+
+    public void islemYap(View view) {
+
+        Log.i(TAG,"Düğmeye tıklandı");
+        EditText editText = (EditText) findViewById(R.id.editText);
+        Log.i(TAG,"Edit Text tanımlandı");
+        String s1 = editText.getText().toString();
+        Log.i(TAG,"Edit Text içindeki yazı alındı");
+        sayi = Integer.parseInt(s1);
+        Log.i(TAG,"Yazı sayıya çevrildi");
+        sayi = sayi + 2;
+        Log.i(TAG,"sayıya 2 eklendi");
+    }
+}
+

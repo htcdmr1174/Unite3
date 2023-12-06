@@ -14,6 +14,30 @@
         android:theme="@style/Theme.Unite3"
         tools:targetApi="31">
         <activity
+            android:name=".Uyg11"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg4"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg5"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg6"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg7"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg8"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg10"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg9"
+            android:exported="false" />
+        <activity
             android:name=".Soru5"
             android:exported="false" />
         <activity
@@ -23,13 +47,13 @@
             android:name=".Soru3"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Soru2"
             android:exported="false" />
         <activity
             android:name=".Soru1"
             android:exported="false" />
         <activity
-            android:name=".Soru2"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

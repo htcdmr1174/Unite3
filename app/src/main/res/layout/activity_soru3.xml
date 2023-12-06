@@ -72,7 +72,7 @@
         android:layout_height="104dp"
         android:text="Sonuç;"
         android:textSize="30dp"
-        android:textcolor="#FF0000"
+        android:textColor="#FF0000"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="435dp" />
